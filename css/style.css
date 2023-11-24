@@ -1,0 +1,397 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #ffffffcc;
+    border: 3px solid #000000;
+    height: 100;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    background-color: #a19e9e;
+    justify-content: space-between;
+    font-size: large;
+    color: #ffffff;
+    border-bottom: 3px solid #000000;
+    align-items: center;
+}
+
+a {
+    background-color: #a19e9e;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 1vw;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #ffffff;
+    color: #a19e9e;
+}
+
+.logo {
+    width: 50px;
+    margin: 3px;
+}
+
+header {
+    width: 75vw;
+    height: 30vh;
+}
+
+.schoen{
+    background-image: url(../images/nike-nike-dunk-low-disrupt-2-easter-w.jpg);
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-color: #ebbbaf;
+    justify-content: center;
+    display: grid;
+    border-bottom: 3px solid #000000;
+}
+
+.title {
+    text-align: center;
+    height: fit-content;
+    margin-top: 100px;
+}
+
+.middentext {
+    text-align: center;
+    justify-self: center;
+    width: 50%;
+}
+
+button {
+    background-color: #a19e9e;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 1vw;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #a19e9e;
+}
+
+.kopje2 {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+
+.container{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 75px;
+}
+
+.card{
+    background: #ffffff;  
+    width: 270px;
+    height: 400px;
+    margin: 15px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.card-image{
+    height: 175px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+.stars{
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.shoe1{
+    background-image: url('../images/Nike-Dunk-Low-Disrupt-2-DH4402-001-5.jpg');
+}
+
+.shoe2{
+    background-image: url('../images/nike-dunk-low-disrupt-2-sunrise-dx2676-100-7.jpg');
+}
+
+.shoe3{
+    background-image: url('../images/Nike-Dunk-Low-Disrupt-2-DH4402-101-4.jpg');
+}
+
+img {
+    width: 100%;
+}
+
+.formulier {
+    display: grid;
+    justify-content: center;
+    background-color: #a19e9e;
+}
+
+.form1{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+}
+
+.grid-container {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+  
+.grid-double {
+    display: flex;
+    grid-column: span 2;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+
+#ja, #nee{
+    margin-bottom: 50px;
+}
+
+input{
+    padding: 10px;
+}
+
+select{
+    padding: 10px;
+}
+
+textarea{
+    padding: 50px;
+}
+
+.buttonform{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #716f6f;
+    color: #ffffff;
+    font-size: large;
+    align-items: end;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    border: 3px solid #716f6f;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+}
+
+.logofooter {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
+
+.copyright {
+    font-size: small;
+    padding-top: 10px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
+
+.footertext{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 35px;
+    font-size: medium;
+    margin-left: 400px;
+}
+
+@media (max-width: 450px){
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+    background-color: #a19e9e;
+    justify-content: space-evenly;
+    font-size:xxx-large;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 3px solid #000000;
+}
+
+.schoen{
+    background-size: 430px;
+    padding: 20px;
+}
+.title{
+    margin-top: 150px;
+}
+
+.middentext{
+    display: none;
+}
+
+.kopje2 {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+
+.container{
+    display: grid; 
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.card{
+    background: #ffffff;  
+    width: 270px;
+    height: 400px;
+    margin: 15px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+}
+
+.grid-container {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+  
+.grid-double {
+    display: flex;
+    grid-column: span 1;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+
+#ja, #nee{
+    margin-bottom: 50px;
+}
+
+input{
+    padding: 10px;
+}
+
+select{
+    padding: 10px;
+}
+
+textarea{
+    padding: 50px;
+}
+
+.buttonform{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.footer {
+    background-color: #716f6f;
+    color: #ffffff;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #716f6f;
+    padding: 0px;
+    align-items: start;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logofooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50px;
+}
+
+.copyright {
+    font-size: small;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
+
+.footertext{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+
+}
+}
